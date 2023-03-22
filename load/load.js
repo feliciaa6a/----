@@ -5,7 +5,7 @@ submit.onclick=function(){
     ///获取用户名和密码
     let username=usernameInput.value;
     let password=passwordInput.value;
-    fetch("https://api.github.com/search/users?q=runninglili",
+    fetch("unknown",
     {method:'post',
     headers:{
         "Content-Type":"application/json"
